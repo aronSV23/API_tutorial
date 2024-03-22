@@ -9,17 +9,17 @@ const router = Router()
  *   get:
  *     tags:
  *       - PingPong
- *     sumary: Retorna un archivo Json con mensaje Pong
+ *     summary: Return a Pong object from database
  *
  *     responses:
  *       200:
- *         description: a Pong object from database
+ *         description: OK
  *         content:
  *           application/json:
  *             schema:
  *               type: object
  *               properties:
- *                 message:
+ *                 result:
  *                   type: string
  *                   example: Pong
  *
